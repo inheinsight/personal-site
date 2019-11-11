@@ -2,10 +2,27 @@
 
 @import "../node_modules/bulma/sass/utilities/initial-variables";
 @import url('https://fonts.googleapis.com/css?family=Adamina&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700&display=swap');
 
 // Update the sans-serif font family
 $family-primary: "Adamina", serif;
+$family-secondary: "Muli", sans-serif;
+p {
+  font-family: $family-secondary;
+  font-size: $size-5;
+  line-height: 1.5em;
+}
+
+// Add Gold Variable
 $gold: #D4AF37;
+$blue: #05386B;
+
+// Update Primary Color
+$primary: $blue;
+
+// Update Box
+$box-shadow: .25em .25em 1.2em .1em rgba(53, 53, 53, .5);
+$box-radius: 25px;
 
 // Regular CSS
 #top-blob-image {
@@ -20,11 +37,21 @@ $gold: #D4AF37;
 
 .half-highlight {
   background: rgb(255,255,255);
-  background: linear-gradient(180deg, rgba(250,250,250,1) 70%, rgba(212,175,55,0.896796218487395) 35%);
+  background: linear-gradient(180deg, rgba(250,250,250,1) 75%, rgba(212,175,55,1) 20%);
 }
 
 .bounce {
   animation: bounce 2.5s;
+}
+
+// About Section
+#about > .hero {
+  background-color: $blue;
+}
+
+#about > .hero > .hero-body > .container {
+  width: 70%;
+  margin: 0 auto;
 }
 
 @import "../node_modules/bulma/bulma";
