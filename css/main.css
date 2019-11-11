@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Muli:400,700&display=swap");
 p {
   font-family: "Muli", sans-serif;
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 1.5em; }
 
 #top-blob-image {
@@ -26,6 +26,16 @@ p {
 #about > .hero > .hero-body > .container {
   width: 70%;
   margin: 0 auto; }
+
+#about-text > p {
+  font-size: 1.25rem; }
+
+#blog-posts > .container {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+#view-all {
+  margin: 20px; }
 
 /*! bulma.io v0.7.5 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {

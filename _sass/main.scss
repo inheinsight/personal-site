@@ -9,7 +9,7 @@ $family-primary: "Adamina", serif;
 $family-secondary: "Muli", sans-serif;
 p {
   font-family: $family-secondary;
-  font-size: $size-5;
+  font-size: $size-6;
   line-height: 1.5em;
 }
 
@@ -52,6 +52,20 @@ $box-radius: 25px;
 #about > .hero > .hero-body > .container {
   width: 70%;
   margin: 0 auto;
+}
+
+#about-text > p {
+  font-size: $size-5;
+}
+
+//Blog Section
+#blog-posts > .container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#view-all {
+  margin: 20px;
 }
 
 @import "../node_modules/bulma/bulma";
