@@ -4,6 +4,15 @@
 @import url('https://fonts.googleapis.com/css?family=Adamina&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Muli:400,700&display=swap');
 
+// Update Color Variables
+$yellow: #D4AF37;
+$blue: #05386B;
+$green: #88D498;
+$primary: $blue;
+$success-invert: $white;
+$link: $green;
+$has-background-warning: $yellow;
+
 // Update the sans-serif font family
 $family-primary: "Adamina", serif;
 $family-secondary: "Muli", sans-serif;
@@ -12,13 +21,6 @@ p {
   font-size: $size-6;
   line-height: 1.5em;
 }
-
-// Add Gold Variable
-$gold: #D4AF37;
-$blue: #05386B;
-
-// Update Primary Color
-$primary: $blue;
 
 // Update Box
 $box-shadow: .25em .25em 1.2em .1em rgba(53, 53, 53, .5);
@@ -69,4 +71,3 @@ $box-radius: 25px;
 }
 
 @import "../node_modules/bulma/bulma";
-
